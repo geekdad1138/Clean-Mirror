@@ -1,35 +1,37 @@
-# Skill Bridge
+# Clean Mirror
 
 **Purpose:**  
-Skill Bridge is an adaptive learning platform that connects users to practical experiences, guided exercises, and personalized pathways to quickly acquire new skills.
+Clean Mirror is a reflective AI tool that provides users with clear, unbiased insights into their behaviors, patterns, and outcomes, helping them see themselves more clearly and make better decisions.
 
 **Features:**  
-- Personalized learning pathways based on skill level.  
-- Real-world exercises and mini-projects.  
-- Track progress and skill mastery.  
-- Collaborative challenges with community support.
+- Analyze behavior patterns from user input.  
+- Provide unbiased feedback on decisions and outcomes.  
+- Track progress over time.  
+- Customizable reflection prompts.
 
 **Installation:**  
 ```bash
 # Placeholder for installation instructions
-# e.g., pip install skill-bridge
+# e.g., pip install clean-mirror
 ```
 
 **Usage:**
-```
-from skill_bridge import LearningPath
+```bash
+from clean_mirror import Reflector
 
-path = LearningPath(skill="Python")
-path.start()
-path.complete_exercise("Variables and Loops")
+reflector = Reflector()
+insights = reflector.analyze("I often procrastinate on big projects.")
+print(insights)
 ```
 
 **Contributing:**
-Fork the repository and submit pull requests. Contributions could include:
-* Adding new skill tracks
-* Creating exercises or mini-projects
-* Improving adaptive learning algorithms
+We welcome contributions! Suggestions include:
+
+Improving behavioral analysis algorithms
+
+Enhancing insight clarity
+
+Adding new reflection prompts
 
 **License:**
 MIT License
-
